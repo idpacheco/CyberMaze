@@ -1,0 +1,26 @@
+extends Control
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+
+
+func _on_play_button_pressed() -> void:
+	AudioManager.SFXPlayer.stream = preload("res://mainMenu/Assets/Audio/tf2-button-click-hover.mp3")
+	AudioManager.SFXPlayer.play()
+	Global.index = 7
+	SceneTransitions.change_scene_to_file("res://Mision_1/Level1/scenes/inicioMision1.tscn")
+	pass # Replace with function body.
+
+
+func _on_settings_button_pressed() -> void:
+	AudioManager.SFXPlayer.stream = preload("res://mainMenu/Assets/Audio/tf2-button-click-hover.mp3")
+	AudioManager.SFXPlayer.play()
+	Global.index = 7
+	SceneTransitions.change_scene_to_file("res://Select_Character/Scenes/select_character.tscn")

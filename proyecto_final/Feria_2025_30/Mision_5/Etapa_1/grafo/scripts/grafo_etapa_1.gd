@@ -216,17 +216,17 @@ func _run_animation():
 	#  GUARDAR INFORMACIÓN GLOBAL PARA LA PANTALLA FINAL
 	# --------------------------------------------------
 
-	GameState.all_nodes = node_map.keys()
-	GameState.compromised = compromised_nodes.duplicate()
+	GameState2.all_nodes = node_map.keys()
+	GameState2.compromised = compromised_nodes.duplicate()
 
 	var selected_algorithm = option_algorithm.get_item_text(option_algorithm.selected)
 
 	if selected_algorithm == "BFS":
-		GameState.bfs_order = order.duplicate()
+		GameState2.bfs_order = order.duplicate()
 	else:
-		GameState.dfs_order = order.duplicate()
+		GameState2.dfs_order = order.duplicate()
 
-	if GameState.has_both_traversals():
+	if GameState2.has_both_traversals():
 		print("✔ Ambos recorridos listos, cargando Validación...")
 		get_tree().change_scene_to_file("res://Mision_5/Etapa_1/grafo/scenes/validacion.tscn")
 	else:

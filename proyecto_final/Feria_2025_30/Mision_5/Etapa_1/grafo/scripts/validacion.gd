@@ -19,7 +19,7 @@ func _spawn_nodes():
 	for n in nodes_container.get_children():
 		n.queue_free()
 
-	for id in GameState.all_nodes:
+	for id in GameState2.all_nodes:
 		var widget = NODE_WIDGET.instantiate()
 
 		# Setup ahora SOLO recibe id
@@ -35,7 +35,7 @@ func _validate():
 			user_selected.append(widget.node_id)
 
 
-	if arrays_match_unordered(user_selected, GameState.compromised):
+	if arrays_match_unordered(user_selected, GameState2.compromised):
 		win.visible = true
 	else:
 		lose.visible = true

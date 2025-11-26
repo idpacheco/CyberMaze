@@ -1,7 +1,7 @@
 [gd_scene load_steps=16 format=3 uid="uid://bughfyso16oex"]
 
 [ext_resource type="Script" uid="uid://3vs10fql7ehd" path="res://mainMenu/Scenes/main.gd" id="1_h08m3"]
-[ext_resource type="Texture2D" uid="uid://ybptnchfqwi3" path="res://mainMenu2/Assets/Images/VIRUS HUNTER.png" id="1_x8rku"]
+[ext_resource type="Texture2D" uid="uid://ybptnchfqwi3" path="res://mainMenu/Assets/Images/VIRUS HUNTER.png" id="1_x8rku"]
 [ext_resource type="Texture2D" uid="uid://dkl6f1petmp64" path="res://Grafo Button_1.png" id="3_h08m3"]
 [ext_resource type="Texture2D" uid="uid://d10m8p3gjshlp" path="res://Grafo Button_3.png" id="4_4yn25"]
 [ext_resource type="Texture2D" uid="uid://wxx28iwb5cig" path="res://Grafo Button_2.png" id="5_qlrng"]
@@ -9,11 +9,11 @@
 [ext_resource type="Texture2D" uid="uid://yi0u7rgilegb" path="res://Arbol Button_3.png" id="7_p6m0r"]
 [ext_resource type="Texture2D" uid="uid://dsrutcbuxvwdy" path="res://Arbol Button_2.png" id="8_vglri"]
 [ext_resource type="Texture2D" uid="uid://1cxo43e6cnq6" path="res://mainMenu2/Assets/buttons/muteOn.tres" id="9_h08m3"]
-[ext_resource type="Texture2D" uid="uid://byvk2pbslmsdm" path="res://mainMenu/Assets/buttons/settingsNormal.tres" id="9_o0i1u"]
+[ext_resource type="Texture2D" uid="uid://byvk2pbslmsdm" path="res://mainMenu2/Assets/buttons/settingsNormal.tres" id="9_o0i1u"]
 [ext_resource type="Texture2D" uid="uid://cr08on8hvo5r5" path="res://mainMenu2/Assets/buttons/muteOff.tres" id="10_4yn25"]
-[ext_resource type="Texture2D" uid="uid://dca3lp1fsg6ri" path="res://mainMenu/Assets/buttons/SettingsPressed.tres" id="10_p6m0r"]
+[ext_resource type="Texture2D" uid="uid://dca3lp1fsg6ri" path="res://mainMenu2/Assets/buttons/SettingsPressed.tres" id="10_p6m0r"]
 [ext_resource type="Script" uid="uid://t4k7rimdslql" path="res://mainMenu2/Assets/Audio/MuteButton.gd" id="11_qlrng"]
-[ext_resource type="Texture2D" uid="uid://chopkqxe7fcxx" path="res://mainMenu/Assets/buttons/settingsHover.tres" id="11_vglri"]
+[ext_resource type="Texture2D" uid="uid://chopkqxe7fcxx" path="res://mainMenu2/Assets/buttons/settingsHover.tres" id="11_vglri"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_gjnod"]
 texture = ExtResource("1_x8rku")

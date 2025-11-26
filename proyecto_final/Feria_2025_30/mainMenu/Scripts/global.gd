@@ -1,7 +1,7 @@
 # Global.gd
 extends Node
 
-var arbol: ArbolBinario = ArbolBinario.new()
+var arbol: Arbol = Arbol.new()
 var index: int
 var estado_des: bool
 

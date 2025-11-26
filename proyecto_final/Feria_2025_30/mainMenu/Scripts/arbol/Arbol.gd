@@ -1,5 +1,4 @@
-# ArbolBinario.gd
-class_name ArbolBinario
+class_name Arbol
 extends Node
 
 var raiz: Nodo = null

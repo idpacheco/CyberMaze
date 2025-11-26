@@ -1,7 +1,4 @@
 extends Control
-
-func _ready() -> void:
-	Global.index = -1
 	
 func _on_grafo_button_pressed() -> void:
 	AudioManager.SFXPlayer.stream = preload("res://mainMenu/Assets/Audio/tf2-button-click-hover.mp3")

@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://dnp2klhrw5wjl"]
 
 [ext_resource type="Script" uid="uid://dqfmfjk3nmlyu" path="res://seleccion_juego.gd" id="1_au5ba"]
-[ext_resource type="Texture2D" uid="uid://ybptnchfqwi3" path="res://mainMenu2/Assets/Images/VIRUS HUNTER.png" id="2_bb06y"]
+[ext_resource type="Texture2D" uid="uid://ybptnchfqwi3" path="res://mainMenu/Assets/Images/VIRUS HUNTER.png" id="2_bb06y"]
 [ext_resource type="Texture2D" uid="uid://bg7o5kaxcpji0" path="res://mainMenu2/Assets/buttons/playNormal.tres" id="3_lnsxg"]
 [ext_resource type="Texture2D" uid="uid://cae07jewvqay5" path="res://mainMenu2/Assets/buttons/playPressed.tres" id="4_bn2mp"]
 [ext_resource type="Texture2D" uid="uid://b30appaemqify" path="res://mainMenu2/Assets/buttons/playHover.tres" id="5_ospun"]
